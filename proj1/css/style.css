@@ -1,0 +1,173 @@
+
+*{
+padding: 0px 0px,0px 0px;
+margin: 0px 0px,0px 0px;
+}
+
+body, html{
+background-color: #C9C9C9;
+height: 96%;
+min-width: 950px;
+font-family: "Times New Roman", Times, serif;
+margin: 0px 0px,0px 0px;	
+}
+
+#menu{
+text-align: center;
+width: 100%;
+height:3em;  
+padding:0;  
+background: #000;
+color: #FFF;
+font-family: Arial,Helvetica,sans-serif;
+overflow:hidden;
+margin:40px 0px 40px 0px;
+} 
+		 
+	#menu ul {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+		
+	#menu li {
+		display: inline;
+		margin-left: -5px; 
+		
+	}
+		
+	#menu a {
+		text-decoration: none;
+		padding: 10px 10px 10px 10px;
+		font-weight: bold;
+		border: 3px solid #CF142B;
+		color:  white;
+		background-color: #CF142B;
+	}
+
+	#menu a:hover {
+		color:  #ffffff;
+		background-color: #00247D;
+	}
+
+	#menu a:active {
+		color: #ffffff;
+		background-color: #00247D;
+	}
+
+	#menu li a.selected {
+		text-decoration: underline;
+	}
+	
+	ul{
+	list-style-type: none;
+	}
+
+	ul.inlineobjects li{
+	display: inline-block;
+	}
+	
+	#button {
+    text-align: center;
+    padding-top: 15px;
+    } 
+    
+    span.astric{
+	color: red;
+	}
+
+	h1{
+	text-align: center;
+	font-size: 400%;
+	}
+	
+.title { 
+float: right;
+width: 200px;
+text-align: left;
+padding-right: 20px;
+padding-left: 400px;
+margin-right: 100px;   
+}
+
+.formbutton {
+background-color: white;
+padding: 10px 10px 10px 10px;
+font-size: 100%;
+}
+
+#error_message{
+color: #ff0000;
+font-style: italic;
+}
+
+
+
+
+
+
+
+div#tabs-1 {
+    height: 100%;
+    background: #DFD;
+    border: 1px solid #009;
+    padding: 5px;
+}
+div#tabs-2 {
+    height: 100%;
+    background: #FFD;
+    border: 1px solid #009;    
+    padding: 5px;
+}
+div#tabs-3 {
+    height: 100%;
+    background: #FDD;
+    border: 1px solid #009;    
+    padding: 5px;
+}
+
+.ui-tabs-hide {
+    display: none;
+}
+
+div#tabs {
+    margin: 0 40px 0 40px;
+    height: 500px;
+    min-width:500px;
+    }
+    
+/* 
+div#tabs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 22px;
+    border-bottom: 1px solid #000;
+}
+div#tabs ul li {
+    float: left;
+    height: 17px;
+    padding: 4px 10px 0 10px;
+    margin-right: 5px;
+    border: 1px solid #ABC;
+    border-bottom: none;
+    position: relative;
+    background: #000;
+}
+div#tabs ul li a {
+    text-decoration: none;
+    color: white;
+}
+div#tabs ul li.ui-tabs-selected {
+    background: #559;
+}
+div#tabs ul li.ui-tabs-selected a {
+    color: white;
+}
+ */
+ 
+ div#tabs ul li.ui-tabs-selected {
+    background: #559;
+}
+div#tabs ul li.ui-tabs-selected a {
+    color: white;
+}
